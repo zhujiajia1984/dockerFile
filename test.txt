@@ -1,6 +1,0 @@
-FROM centos
-
-# nodejs安装（8.x版本）
-RUN yum -y install epel-release sudo net-tools \
-	&& curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash - \
-	&& yum -y install nodejs

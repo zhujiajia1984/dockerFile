@@ -1,17 +1,16 @@
 FROM centos
 
-# 使用阿里云yum源
+# 使用阿里云yum源并安装epel源、sudo、vim、nodejs、cnpm
 RUN mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup \
 	&& curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo \
-	&& yum clean all && yum makecache
-
-# 安装epel源、sudo、ifconfig、vim、wget
-RUN yum -y install epel-release \
-	&& yum -y install sudo vim
-
-# nodejs安装（8.x版本）
-RUN curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash - \
-	&& yum -y install nodejs
+	&& yum clean all && yum makecache \
+	&& yum -y install epel-release sudo vim	\
+	&& mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup \
+	&& mv /etc/yum.repos.d/epel-testing.repo /etc/yum.repos.d/epel-testing.repo.backup \
+	&& curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo \
+	&& curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash - \
+	&& yum -y install nodejs \
+	&& npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 # webServer
 # WORKDIR /home/myapp

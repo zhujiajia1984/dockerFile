@@ -1,4 +1,0 @@
-FROM centos
-
-# 安装epel源、sudo、ifconfig命令
-RUN yum -y install epel-release sudo net-tools vim

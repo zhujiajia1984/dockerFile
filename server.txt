@@ -1,8 +1,8 @@
 FROM nodejs
 
-# 配置工作目录
+# webServer
 WORKDIR /home/myapp
-RUN npm install express-generator -g \
+RUN cnpm install express-generator -g \
 	&& cd .. && express --view=ejs -f myapp \
-	&& cd myapp && npm --save install
+	&& cd myapp && cnpm --save install
 CMD ["npm", "start"]
