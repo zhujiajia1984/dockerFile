@@ -1,0 +1,24 @@
+version: "3.2"
+services:
+  web:
+    image: server2
+    ports:
+      - "30000:3000"
+    networks:
+      - net1
+    depends_on:
+      - redis
+    volumes:
+      - type: volume
+        source: mywebCode
+        target: /home/myapp
+  redis:
+    image: redis
+    ports:
+      - "63790:6379"
+    networks:
+      - net1
+networks:
+  net1:
+volumes:
+  mywebCode:
