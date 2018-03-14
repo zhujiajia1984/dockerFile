@@ -1,0 +1,9 @@
+FROM centos
+
+# 基本命令和配置yum源，安装redis
+RUN mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup \
+	&& curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo \
+	&& yum clean all && yum makecache \
+	&& yum -y install epel-release sudo vim net-tools \
+	&& yum -y install redis
+CMD ["redis-server"]
