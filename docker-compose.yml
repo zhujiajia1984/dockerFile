@@ -1,7 +1,7 @@
 version: "3.2"
 services:
   web:
-    image: server2
+    image: server
     ports:
       - "30000:3000"
     networks:
@@ -10,7 +10,7 @@ services:
       - redis
     volumes:
       - type: volume
-        source: mywebCode
+        source: webcode
         target: /home/myapp
   redis:
     image: redis
@@ -21,4 +21,4 @@ services:
 networks:
   net1:
 volumes:
-  mywebCode:
+  webcode:
