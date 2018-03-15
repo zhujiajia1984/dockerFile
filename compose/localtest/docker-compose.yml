@@ -12,8 +12,6 @@ services:
     networks:
       - default
       - myapp_net
-    # external_links:
-    #   - myapp_redis_1
 volumes:
   webcode:
 networks:

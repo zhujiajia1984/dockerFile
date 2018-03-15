@@ -1,16 +1,13 @@
 version: "3.2"
 services:
-  web:
-    image: server
+  redis:
+    image: redis:1.0
     ports:
-      - "40000:18000"
+      - "63790:6379"
     networks:
       - default
       - myapp_net
     volumes:
-      - type: volume
-        source: webcode
-        target: /home/myapp
       - "/etc/localtime:/etc/localtime:ro"
 networks:
   myapp_net:
