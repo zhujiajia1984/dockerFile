@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - default
+      - myapp_net
+    volumes:
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/usr/local/redis/etc/redis.conf:/etc/redis.conf"
+      - "/home/redis/data:/data"
+    command:  ["redis-server", "/etc/redis.conf", "--appendonly yes"]
+networks:
+  myapp_net:
+    external: true

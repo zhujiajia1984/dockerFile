@@ -1,16 +1,17 @@
 version: "3.2"
 services:
-  redis:
-    image: redis:1.0
+  web:
+    image: localtest
     ports:
-      - "63790:6379"
+      - "40001:3000"
     networks:
       - default
       - myapp_net
     volumes:
+      - "code:/home/node/myapp"
       - "/etc/localtime:/etc/localtime:ro"
 networks:
   myapp_net:
     external: true
 volumes:
-  webcode:
+  code:

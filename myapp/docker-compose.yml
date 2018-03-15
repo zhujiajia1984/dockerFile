@@ -1,19 +1,17 @@
 version: "3.2"
 services:
   web:
-    image: server
+    image: myapp
     ports:
-      - "40000:18000"
+      - "40000:3000"
     networks:
       - default
       - myapp_net
     volumes:
-      - type: volume
-        source: webcode
-        target: /home/myapp
+      - "code:/home/node/myapp"
       - "/etc/localtime:/etc/localtime:ro"
 networks:
   myapp_net:
     external: true
 volumes:
-  webcode:
+  code:
