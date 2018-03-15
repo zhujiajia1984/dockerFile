@@ -1,9 +1,0 @@
-FROM centos
-
-# 基本命令和配置yum源，安装redis并修改配置文件
-RUN yum -y install epel-release sudo vim net-tools \
-	&& yum -y install redis \
-	&& sed -i 's/bind 127.0.0.1/# bind 127.0.0.1/' /etc/redis.conf \
-	&& sed -i 's/# requirepass foobared/requirepass zjj15202185069/' /etc/redis.conf
-
-CMD ["redis-server", "/etc/redis.conf"]
