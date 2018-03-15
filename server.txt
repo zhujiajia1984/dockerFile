@@ -33,6 +33,7 @@ RUN yum -y install gcc gcc-c++ make \
 	&& cnpm install serve-favicon@2.4.5 \
 	&& cnpm install xml-mapping@1.7.1 \
 	&& cnpm install xmlreader@0.2.3 \
+	&& cnpm install redis \
 	&& cnpm install express-generator -g \
 	&& cd .. && express --view=ejs -f myapp \
 	&& cd myapp

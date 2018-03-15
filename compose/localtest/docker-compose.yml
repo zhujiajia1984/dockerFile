@@ -3,28 +3,19 @@ services:
   web:
     image: server
     ports:
-      - "40000:18000"
-    networks:
-      - default
-      - myapp_net
-    depends_on:
-      - redis
+      - "30000:3000"
     volumes:
       - type: volume
         source: webcode
         target: /home/myapp
       - "/etc/localtime:/etc/localtime:ro"
-  redis:
-    image: redis
-    ports:
-      - "63790:6379"
     networks:
       - default
       - myapp_net
-    volumes:
-      - "/etc/localtime:/etc/localtime:ro"
+    # external_links:
+    #   - myapp_redis_1
+volumes:
+  webcode:
 networks:
   myapp_net:
     external: true
-volumes:
-  webcode:
