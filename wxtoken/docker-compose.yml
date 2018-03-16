@@ -1,13 +1,14 @@
 version: "3.2"
 services:
-  web:
-    image: node
+  work:
+    image: wxtoken
     networks:
       - default
       - myapp_net
     volumes:
       - "code:/home/node/myapp"
       - "/etc/localtime:/etc/localtime:ro"
+    command: ["node", "bin/token.js"]
 networks:
   myapp_net:
     external: true
