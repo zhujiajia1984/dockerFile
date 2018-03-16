@@ -1,0 +1,14 @@
+version: "3.2"
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - default
+      - myapp_net
+    volumes:
+      - "/etc/localtime:/etc/localtime:ro"
+networks:
+  myapp_net:
+    external: true
