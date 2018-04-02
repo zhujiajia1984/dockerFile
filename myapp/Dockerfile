@@ -5,6 +5,8 @@ WORKDIR /home/node/myapp
 
 # 安装依赖包
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
+	&& cnpm install jsonwebtoken \
+	&& cnpm install mongodb \
 	&& cnpm install node-gyp -g \
 	&& cnpm install ccap \
 	&& cnpm install body-parser@1.18.2 \

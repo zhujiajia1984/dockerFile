@@ -1,0 +1,497 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"mo",
+				"moment"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"set",
+				"setInterval〔function〕"
+			],
+			[
+				"img",
+				"imgUrlNames"
+			],
+			[
+				"i",
+				"iconfont/"
+			],
+			[
+				"type",
+				"type=\"search"
+			],
+			[
+				"po",
+				"props\tReact: this.props."
+			],
+			[
+				"cl",
+				"ClickBtn.js"
+			],
+			[
+				"b",
+				"BasicExample.js"
+			],
+			[
+				"co",
+				"Components/"
+			],
+			[
+				"p",
+				"props\tReact: this.props."
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"tools",
+				"tools/"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"prop",
+				"props\tReact: this.props."
+			],
+			[
+				"r",
+				"rcc\tReact: component skeleton"
+			],
+			[
+				"pro",
+				"props\tReact: this.props."
+			],
+			[
+				"im",
+				"img\tTag"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"reac",
+				"react"
+			],
+			[
+				"rr",
+				"react-router-dom"
+			],
+			[
+				"cw",
+				"cwr\tReact: componentWillReceiveProps: fn(np) { ... }"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"run",
+				"npm: Run Script"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"npm run",
+				"npm: Run Script"
+			],
+			[
+				"package contol:in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"npm in",
+				"npm: Install and Save Development Package"
+			],
+			[
+				"npm run ",
+				"npm: Run Script"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 221.0,
+		"history":
+		[
+			"ggg",
+			"clear",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"aaa"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Project/docker/dockerFile",
+		"/D/Project/docker/dockerFile/localtest",
+		"/D/Project/docker/dockerFile/mongodb",
+		"/D/Project/docker/dockerFile/myapp",
+		"/D/Project/docker/dockerFile/redis"
+	],
+	"file_history":
+	[
+		"/D/Project/docker/dockerFile/localtest/Dockerfile",
+		"/D/Project/docker/dockerFile/myapp/Dockerfile",
+		"/D/Project/docker/dockerFile/mongodb/docker-compose.yml",
+		"/D/360云盘/资料文档/01_多倍通工作资料/99_学习/06_nginx学习_https证书LetsEncrypt/server.conf",
+		"/C/Users/zjj/Desktop/access_token.log",
+		"/D/Project/docker/dockerFile/wxtoken/docker-compose.yml",
+		"/D/Project/docker/dockerFile/wxtoken/Dockerfile",
+		"/D/Project/nodejs/wxToken/bin/testRedis.js",
+		"/D/Project/nodejs/wxToken/bin/token.js",
+		"/D/Project/nodejs/wxToken/package.json",
+		"/D/Project/nodejs/myapp/app.js",
+		"/D/Project/nodejs/myapp/logs/log4js.json",
+		"/D/Project/nodejs/myapp/bin/token.js",
+		"/D/Project/nodejs/myapp/logs/log4js.js",
+		"/D/Project/nodejs/myapp/routes/token.js",
+		"/D/Project/nodejs/myapp/routes/h5.js",
+		"/D/Project/nodejs/myapp/routes/wxPublicAccount.js",
+		"/D/Project/nodejs/myapp/routes/wxWeb.js",
+		"/C/Users/zjj/Desktop/xxx.json",
+		"/D/Project/nodejs/myapp/routes/index.js",
+		"/C/Users/zjj/Desktop/python",
+		"/D/Project/nodejs/myapp/routes/wxPay.js",
+		"/D/Project/nodejs/myapp/views/index.ejs",
+		"/D/Project/nodejs/myapp/views/index - 副本.ejs",
+		"/C/Users/zjj/Desktop/redis.conf",
+		"/D/Project/nodejs/myapp/routes/login.js",
+		"/D/Project/react/reactJs/test/src/pages/Home.js",
+		"/D/Project/react/reactJs/test/src/components/GoodsCarouselContainer.js",
+		"/D/Project/react/reactJs/test/src/Components/GoodsCarousel.js",
+		"/D/Project/react/reactJs/test/src/index.js",
+		"/D/Project/react/reactJs/test/package.json",
+		"/D/Project/react/reactJs/test/dist/index.html",
+		"/D/Project/react/reactJs/test/src/components/ClickImg.js",
+		"/D/Project/react/reactJs/test/src/App.js",
+		"/D/Project/react/reactJs/test/src/Components/CarouselDemo.js",
+		"/D/Project/react/reactJs/test/src/Components/MallNavBar.js",
+		"/D/Project/react/reactJs/test/src/index.css",
+		"/D/Project/react/reactJs/test/webpack.config.js",
+		"/D/Project/react/reactJs/test/src/index.less",
+		"/D/Project/react/reactJs/test/node_modules/antd-mobile/lib/style/themes/default.less",
+		"/D/Project/react/reactJs/test/src/custom.less",
+		"/D/Project/react/reactJs/test/src/components/MallNavBar.js",
+		"/D/Project/react/reactJs/test/src/Components/ClickBtn.js",
+		"/D/Project/react/reactJs/test/src/pages/About.js",
+		"/D/Project/react/reactJs/test/src/Components/BasicExample.js",
+		"/D/Project/react/reactJs/test/src/Components/NavBar.js",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/jsfmt/jsfmt.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/EsFormatter.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/EsFormatter/EsFormatter.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/EsFormatter/Default (Windows).sublime-keymap",
+		"/D/Project/react/reactJs/test/src/index.jsx",
+		"/D/Project/react/reactJs/test/src/Components/MallNavBar.jsx",
+		"/D/Project/react/reactJs/test/src/Components/MallMainNavBar.js",
+		"/D/Project/react/reactJs/test/src/Components/Flex.js",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/ConvertToUTF8.sublime-settings",
+		"/D/Project/react/reactJs/test/.eslintrc.js",
+		"/D/Project/react/reactJs/test/.babelrc",
+		"/D/Project/react/reactJs/test/dist/tools/es6-promise.min.js",
+		"/D/ProgramFiles/nodejs/node_modules/npm/npmrc",
+		"/D/Project/react/reactJs/test/server.js",
+		"/D/Project/web/yunac/package.json",
+		"/D/Project/react/reactJs/test/lib/index.html",
+		"/D/Project/web/yunac/server.js",
+		"/D/Project/web/frameMini2/server.js",
+		"/D/Project/react/reactJs/reactJsSample/package.json",
+		"/D/Project/react/reactJs/test/src/.babelrc",
+		"/D/Project/react/reactJs/test/lib",
+		"/D/androidStudio/application/bin/idea.properties",
+		"/D/React/reactJs/src/ParamsExample.js",
+		"/D/React/reactJs/package.json",
+		"/D/React/reactJs/webpack.config.js",
+		"/D/React/reactJs/src/BasicExample.js",
+		"/D/React/reactJs/public/components/About.js",
+		"/D/React/reactJs/public/components/Topics.js",
+		"/D/React/reactJs/src/App.js",
+		"/D/React/reactJs/public/App.js",
+		"/D/React/reactJs/public/index.html",
+		"/D/React/reactJs/src/App2.js",
+		"/C/Users/zjj/Desktop/oui.txt",
+		"/D/React/reactJs/public/components/Home.js",
+		"/D/React/reactJs/server.js",
+		"/D/React/reactJs/src/components/about.js",
+		"/D/React/reactJs/src/components/home.js",
+		"/D/React/reactJs/src/components/Home.js",
+		"/D/React/reactJs/src/index.html",
+		"/D/React/reactJs/src/npm-debug.log",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/D/React/reactJs/.eslintrc.js",
+		"/D/React/reactJs/src/index.js",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/React/reactJs/src/components/BasicExample.js",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/360云盘/资料文档/01_多倍通工作资料/99_微信小程序_公众号学习_APP_react学习/weui学习.txt",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/React/reactJs/.babelrc",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/npm/npm.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/npm.sublime-settings",
+		"/D/React/reactJs/reactjs.sublime-project",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/C/Users/zjj/AppData/Roaming/Sublime Text 3/Packages/User/Localization.sublime-settings",
+		"/D/React/test/aaa.html",
+		"/D/React/test/test.sublime-project",
+		"/D/React/test/index.html",
+		"/D/React/test/index.js",
+		"/D/React/test/.idea/workspace.xml",
+		"/D/React/reactJs/.idea/reactJs.iml",
+		"/C/Users/zjj/Desktop/react-devtools-2.5.0/shells/chrome/build.js",
+		"/D/React/test/.idea/dictionaries/zjj.xml",
+		"/D/React/reactJs/.idea/workspace.xml",
+		"/D/360云盘/资料文档/01_多倍通工作资料/99_微信小程序_公众号学习_APP_react学习/react学习.txt"
+	],
+	"find":
+	{
+		"height": 53.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mongodb",
+			"logger.info",
+			"key",
+			"strin",
+			"string",
+			"console.log",
+			"logger",
+			"redisClient",
+			"expireTime",
+			"redisClient",
+			"login",
+			"JSON",
+			"token",
+			"redisClient",
+			"post",
+			"redisClient",
+			"state",
+			"res",
+			"wxaed97ec85f7517ba",
+			"openid",
+			"intervalTime",
+			"console.log",
+			"dateLog",
+			"JSON",
+			"string3",
+			"string",
+			"hProp",
+			"my-carousel",
+			"svgDirs",
+			"icon",
+			"ICONFONT",
+			"name",
+			"format_on_save_extensions",
+			"\"allowed_file_extension",
+			"BrowserRouter",
+			"BrowserRoutern",
+			"router"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"label"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 232.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dockerfile.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

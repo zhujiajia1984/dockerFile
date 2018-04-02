@@ -9,6 +9,7 @@ services:
       - myapp_net
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
+      - "/home/mongodb/data:/data/db"
 networks:
   myapp_net:
     external: true
