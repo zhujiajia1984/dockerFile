@@ -20,5 +20,6 @@ RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
 	&& cnpm install --save serve-favicon@2.4.5 \
 	&& cnpm install --save redis \
 	&& cnpm install --save mongodb \
-	&& cnpm install jsonwebtoken
+	&& cnpm install --save jsonwebtoken \
+	&& cnpm install --save multer
 CMD ["npm", "start"]

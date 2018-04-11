@@ -5,6 +5,7 @@ WORKDIR /home/node/myapp
 
 # 安装依赖包
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
+	&& cnpm install multer \
 	&& cnpm install jsonwebtoken \
 	&& cnpm install mongodb \
 	&& cnpm install node-gyp -g \
