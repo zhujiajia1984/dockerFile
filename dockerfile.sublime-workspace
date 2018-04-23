@@ -115,10 +115,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 219.0,
-		"last_filter": "install",
+		"height": 173.0,
+		"last_filter": "Package Control: install",
 		"selected_items":
 		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -138,10 +146,6 @@
 			[
 				"run",
 				"npm: Run Script"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
 			],
 			[
 				"Package Control: i",
@@ -180,11 +184,11 @@
 				"npm: Run Script"
 			]
 		],
-		"width": 528.0
+		"width": 609.0
 	},
 	"console":
 	{
-		"height": 221.0,
+		"height": 408.0,
 		"history":
 		[
 			"ggg",
@@ -208,10 +212,16 @@
 		"/D/Project/docker/dockerFile/localtest",
 		"/D/Project/docker/dockerFile/mongodb",
 		"/D/Project/docker/dockerFile/myapp",
-		"/D/Project/docker/dockerFile/redis"
+		"/D/Project/docker/dockerFile/redis",
+		"/D/Project/docker/dockerFile/wechat"
 	],
 	"file_history":
 	[
+		"/C/Users/zhujiajia/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/zhujiajia/AppData/Roaming/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/C/Users/zhujiajia/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/D/Project/docker/dockerFile/wechat/Dockerfile",
+		"/D/Project/docker/dockerFile/wechat/docker-compose.yml",
 		"/D/Project/docker/dockerFile/localtest/Dockerfile",
 		"/D/Project/docker/dockerFile/myapp/Dockerfile",
 		"/D/Project/docker/dockerFile/mongodb/docker-compose.yml",
@@ -330,7 +340,7 @@
 	],
 	"find":
 	{
-		"height": 53.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -406,11 +416,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 45.0
+		"height": 50.0
 	},
 	"input":
 	{
-		"height": 38.0
+		"height": 50.0
 	},
 	"layout":
 	{
@@ -451,7 +461,7 @@
 	"project": "dockerfile.sublime-project",
 	"replace":
 	{
-		"height": 86.0
+		"height": 95.0
 	},
 	"save_all_on_build": true,
 	"select_file":
