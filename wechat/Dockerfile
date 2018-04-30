@@ -20,5 +20,6 @@ RUN apt-get update \
 	&& cnpm install --save moment \
 	&& cnpm install --save redis \
 	&& cnpm install --save mongodb \
-	&& cnpm install --save jsonwebtoken
+	&& cnpm install --save jsonwebtoken \
+	&& cnpm install --save cors
 CMD ["npm", "start"]
