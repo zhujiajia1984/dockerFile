@@ -1,14 +1,14 @@
 version: "3.2"
 services:
-  work:
-    image: wx_authorizer_access_token
+  authorizer:
+    image: wxtoken
     networks:
       - default
       - myapp_net
     volumes:
       - "code:/home/node/myapp"
       - "/etc/localtime:/etc/localtime:ro"
-    command: ["node", "bin/wx_authorizer_access_token.js"]
+    command: ["node", "bin/authorizer_access_token.js"]
 networks:
   myapp_net:
     external: true
