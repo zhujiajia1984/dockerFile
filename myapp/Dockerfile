@@ -26,6 +26,7 @@ RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
 	&& cnpm install xmlreader@0.2.3 \
 	&& cnpm install redis \
 	&& cnpm install express-generator -g \
+	&& cnpm install mongodb \
 	&& cd .. && express --view=ejs -f myapp \
 	&& cd myapp
 CMD ["npm", "start"]
