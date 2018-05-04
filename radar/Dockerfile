@@ -6,7 +6,7 @@ WORKDIR /home/node/radar
 # 安装依赖包
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org \
 	&& cnpm install express-generator -g \
-	&& cd .. && express --view=ejs -f wechat \
+	&& cd .. && express --view=ejs -f radar \
 	&& cd radar \
 	&& cnpm install --save \
 	&& cnpm install --save log4js \

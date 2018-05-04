@@ -3,7 +3,7 @@ services:
   web:
     image: radar
     ports:
-      - "40004:3000"
+      - "40002:3000"
     networks:
       - default
       - myapp_net
