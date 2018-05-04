@@ -1,14 +1,15 @@
 version: "3.2"
 services:
-  authorizer:
-    image: wxtoken
+  web:
+    image: radar
+    ports:
+      - "40004:3000"
     networks:
       - default
       - myapp_net
     volumes:
-      - "code:/home/node/myapp"
+      - "code:/home/node/radar"
       - "/etc/localtime:/etc/localtime:ro"
-    command: ["node", "bin/authorizer.js"]
 networks:
   myapp_net:
     external: true
